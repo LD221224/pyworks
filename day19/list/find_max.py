@@ -11,6 +11,10 @@ for i in score:
         
 print("최고 점수 :", max_v)
 
+# 내장 함수 max(), min()
+print("최고 점수 :", max(score))
+print("최저 점수 :", min(score))
+
 # 최고 점수 위치
 max_idx = 0
 n = len(score)
