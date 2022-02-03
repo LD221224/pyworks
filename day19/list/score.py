@@ -8,12 +8,12 @@ print(30 not in score)  # False
 print("리스트의 크기 :", len(score))
 
 # 추가
-score.append(100)    # 맨 뒤에 추가
-score.insert(2, 70)    # 2번 인덱스에 70 추가
+score.append(100)   # 맨 뒤에 추가
+score.insert(2, 70) # 2번 인덱스에 70 추가
 
 # 삭제
 score.pop()     # 맨 뒤 삭제
-score.pop(2)   # 2번 인덱스 삭제
+score.pop(2)    # 2번 인덱스 삭제
 
 # 조회
 for i in score:

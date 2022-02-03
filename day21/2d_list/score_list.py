@@ -18,14 +18,14 @@ for i in range(0, n):
 # 과목별 총점과 평균
 # 과목별 총점
 math_sum = 0    # 수학 총점
-eng_sum = 0      # 영어 총점
+eng_sum = 0     # 영어 총점
 
 for i in range(0, n):
     math_sum += score[i][0]     # 수학 총점
-    eng_sum += score[i][1]       # 영어 총점
+    eng_sum += score[i][1]      # 영어 총점
 
-math_avg = math_sum / n     # 수학 평균
-eng_avg = eng_sum / n         # 영어 평균
+math_avg = math_sum / n         # 수학 평균
+eng_avg = eng_sum / n           # 영어 평균
 
 print("수학 총점 : " + str(math_sum) + "점")
 print("영어 총점 : " + str(eng_sum) + "점")

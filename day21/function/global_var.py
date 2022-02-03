@@ -9,4 +9,4 @@ x = 1       # 전역 변수(메인 영역에 선언)
 print(one_up())     # 2
 print(one_up())     # 3
 print(one_up())     # 4
-print(x)    # 4
+print(x)            # 4
