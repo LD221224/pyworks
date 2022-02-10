@@ -42,8 +42,12 @@ def play():
     t.forward(10)
 
     # 적 거북이 방향
-    angle = te.towards(t.pos())
-    te.setheading(angle)
+    # 1 ~ 5 중에서 2일 확률로(20%)
+    if random.randint(1, 5) == 2:
+        # 주인공 거북이를 따라온다
+        angle = te.towards(t.pos())
+        te.setheading(angle)    
+        
     # 적 거북이 속도
     speed = score + 5
     te.forward(speed)
