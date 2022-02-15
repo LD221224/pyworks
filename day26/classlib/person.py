@@ -26,3 +26,7 @@ if __name__ == "__main__":
     # 부모 클래스의 멤버를 공유
     print("이름 :", e1.getname())
     print("나이 :", e1.getage())
+
+    e2 = Employee("진", 28)
+    print("이름 : " + e2.getname())
+    print("나이 : " + str(e2.getage()))
