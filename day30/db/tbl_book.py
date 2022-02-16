@@ -31,8 +31,8 @@ def insert_book():
     cursor = con.cursor()
     # book_no는 자동이므로 입력하면 안됨
     sql = "INSERT INTO book(title, publisher, page) VALUES(?, ?, ?)"
-    # cursor.execute(sql, ('웹 표준의 정석', '고경희', 600))
-    cursor.execute(sql, ('점프 투 파이썬', '박응용', 350))
+    cursor.execute(sql, ('웹 표준의 정석', '고경희', 600))
+    # cursor.execute(sql, ('점프 투 파이썬', '박응용', 350))
     con.commit()
     con.close()
 

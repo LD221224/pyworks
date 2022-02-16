@@ -54,3 +54,17 @@
         예외 발생 가능 코드
     except:
         예외 발생시 실행 코드
+
+* WAS(Web Application Server) : flask, django, spring
+    flask 설치 - pip install flask
+    Client -> 요청request, 응답response <- Web Server(WAS)
+
+* 모듈 > 라이브러리
+* 프레임워크 - 모듈, 라이브러리가 이미 제공
+    사용자 작업 도구
+
+* 템플릿 태그
+    {% %} - if, for 문
+            {% if 조건 %} ~ {% endif %}
+            {% for 조건 %} ~ {% endfor %}
+    {{ }} - 출력
