@@ -59,6 +59,14 @@
     flask 설치 - pip install flask
     Client -> 요청request, 응답response <- Web Server(WAS)
 
+* Flask 웹 서버 가동 - day31/website/app.py 참고
+    from  flask import Flask
+    app = Flask(__name__)
+    @app.route('/')  # (= 127.0.0.1:5000)
+    def index():     # 제어(control) 함수
+        return render_template('index.html')
+    app.run
+
 * 모듈 > 라이브러리
 * 프레임워크 - 모듈, 라이브러리가 이미 제공
     사용자 작업 도구
