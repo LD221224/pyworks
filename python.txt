@@ -55,9 +55,18 @@
     except:
         예외 발생시 실행 코드
 
+* 모듈 > 라이브러리
+* 프레임 워크 - 모듈, 라이브러리가 이미 제공
+    사용자 작업 도구
+
+* 정규표현식(Regular Expression)
+    import re - re.compile() 사용
+
+-----------------------------------------------------------------------
+
 * WAS(Web Application Server) : flask, django, spring
     flask 설치 - pip install flask
-    Client -> 요청request, 응답response <- Web Server(WAS)
+    Client -> 요청 request, 응답 response <- Web Server(WAS)
 
 * Flask 웹 서버 가동 - day31/website/app.py 참고
     from  flask import Flask
@@ -67,9 +76,8 @@
         return render_template('index.html')
     app.run
 
-* 모듈 > 라이브러리
-* 프레임워크 - 모듈, 라이브러리가 이미 제공
-    사용자 작업 도구
+    templates -> html
+    static -> css, javascript, images
 
 * 템플릿 태그
     {% %} - if, for 문
@@ -77,5 +85,17 @@
             {% for 조건 %} ~ {% endfor %}
     {{ }} - 출력
 
-* 정규표현식(Regular Expression)
-    import re - re.compile() 사용
+* 웹 요청 방식
+    get - 웹 페이지 오픈(연결) : 주소표시줄에 출력
+    post - 데이터 전송(보안 처리) : 주소표시줄에 보이지 않음
+
+* form - 유효성 검사
+    정규표현식 - 글자수, 영문/숫자 포함, 공백 처리 등
+
+* 클라이언트와 웹 서버(Flask, Django) 간의 상태 유지
+    세션 session : 클라이언트 -> 웹 서버
+    쿠키 cookie
+        1 쿠키 생성 : 웹 서버 -> 클라이언트
+        2 쿠키 저장
+        3 쿠키 전송 : 클라이언트 -> 웹 서버
+

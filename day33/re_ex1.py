@@ -1,8 +1,9 @@
 import re
 
 # 정규표현식
+str = "before"
 pattern1 = re.compile('[a-z]+')
-result = pattern1.match("before")
+result = pattern1.match(str)
 print(result)
 
 pattern2 = re.compile('[0-9]+\s[a-z]+')
