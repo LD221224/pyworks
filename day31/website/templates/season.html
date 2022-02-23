@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="container">
+        <h2>계절 : {{  season  }}</h2>
+        <h2>4계절 : {{  seasons  }}</h2>
+        <ul>
+            {% for s in seasons %}
+            <li>
+                <h3>{{ s }}</h3>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
