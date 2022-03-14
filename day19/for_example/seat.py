@@ -15,5 +15,5 @@ for i in range(0, row):
         num = i * col + j
         if num > customer:
             break
-        print('좌석' + str(num), end = ' ')
+        print('좌석' + str(num), end=' ')
     print()

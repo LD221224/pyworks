@@ -10,4 +10,3 @@ for url in urls:
     print(url_path)
     resp = requests.get(url_path)
     print(resp)
-

@@ -4,9 +4,10 @@ def get_times(n):
     for i in range(1, 101):
         global count
         if i % n == 0:
-            print(i, end = " ")
+            print(i, end=" ")
             count = count + 1
 
-count = 0   # 개수
+
+count = 0  # 개수
 get_times(4)
 print("\n배수의 개수 :", count)

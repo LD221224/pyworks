@@ -6,8 +6,10 @@ def is_odd(number):
     else:
         return False
 
+
 print(is_odd(10))
 print(is_odd(11))
+
 
 # Q2 가변 매개 변수
 def avg_numbers(*args):
@@ -15,6 +17,7 @@ def avg_numbers(*args):
     for i in args:
         result += i
     return print(result / len(args))
+
 
 avg_numbers(1, 2)
 avg_numbers(1, 2, 3, 4, 5)
@@ -30,6 +33,6 @@ print("두 수의 합은 %s 입니다" % total)
 
 # Q4
 print("you" "need" "python")
-print("you"+"need"+"python")
-print("you","need","python")
+print("you" + "need" + "python")
+print("you", "need", "python")
 print("".join(["you", "need", "python"]))

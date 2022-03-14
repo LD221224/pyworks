@@ -12,6 +12,7 @@ class Calculator:
         self.x -= y
         return self.x
 
+
 c1 = Calculator()
 c1.x = 10
 print("x =", c1.x)

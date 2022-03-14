@@ -1,17 +1,22 @@
 import turtle as t
 import random
 
+
 def turn_right():
     t.setheading(0)
+
 
 def turn_up():
     t.setheading(90)
 
+
 def turn_left():
     t.setheading(180)
 
+
 def turn_down():
     t.setheading(270)
+
 
 def play():
     # 주인공 거북이 10픽셀 이동
@@ -34,6 +39,7 @@ def play():
         x = random.randint(-230, 230)
         y = random.randint(-230, 230)
         tf.goto(x, y)
+
 
 # 주인공 거북이
 t.shape("turtle")

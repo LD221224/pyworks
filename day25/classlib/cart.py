@@ -9,6 +9,7 @@ class Cart:
     def __str__(self):
         return Cart.a
 
+
 cart1 = Cart("계란")
 print(cart1.a)
 
@@ -19,5 +20,5 @@ cart3 = Cart("멸치")
 print(cart3.a)
 
 # 전체 요소 출력
-for c in Cart.a:    # 클래스 이름으로 접근
+for c in Cart.a:  # 클래스 이름으로 접근
     print(c, end=" ")

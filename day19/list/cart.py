@@ -20,9 +20,9 @@ print('리스트의 크기 :', len(cart))
 
 # 전체 요소 조회 (for 변수 in 리스트)
 for i in cart:
-    print(i,  end = ' ')
+    print(i, end=' ')
 print()
 
 # 전체 요소 조회 (for 변수 in range())
 for i in range(0, len(cart)):
-    print(cart[i], end = ' ')
+    print(cart[i], end=' ')

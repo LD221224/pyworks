@@ -4,11 +4,13 @@
 변수이름 앞에 '*'를 붙임
 """
 
+
 def merge_text(*text):
-    result = ""     # 문자 초기화
+    result = ""  # 문자 초기화
     for txt in text:
         result += txt
     return result
+
 
 str1 = merge_text("모자", "장갑")
 str2 = merge_text("모자", "장갑", "목도리")

@@ -22,4 +22,3 @@ first_a = div.find('a')
 all_a = div.findAll('a')
 print(all_a)
 print(all_a[1].text)
-

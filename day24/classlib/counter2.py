@@ -1,7 +1,7 @@
 # Counter 클래스 정의와 사용
 
 class Counter:
-    x = 0   # 클래스 멤버 변수
+    x = 0  # 클래스 멤버 변수
 
     def __init__(self):
         # 클래스 이름으로 직접 접근
@@ -9,6 +9,7 @@ class Counter:
 
     def getcount(self):
         return Counter.x
+
 
 c1 = Counter()
 # print(c1.x)     # c1.x = 1

@@ -7,4 +7,3 @@ for i in args:
     total += int(i)
 
 print(total)
-

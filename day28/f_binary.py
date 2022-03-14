@@ -6,4 +6,4 @@ with open("./output/data.bin", 'wb') as f:
 with open("./output/data.bin", 'rb') as f:
     data = f.read()
     print(data)
-    print(data.decode())    # 복호화 - 문자로 변환
+    print(data.decode())  # 복호화 - 문자로 변환

@@ -27,4 +27,3 @@ for key in person:
 
 # 객체 출력
 print(person)
-

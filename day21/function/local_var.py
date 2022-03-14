@@ -5,6 +5,7 @@ def one_up():
     x = x + 1
     return x
 
+
 print(one_up())     # 2
 print(one_up())     # 2
 # print(x)

@@ -28,5 +28,5 @@ print()
 # 전체 출력 (이중 for문)
 for i in range(0, len(a)):
     for j in range(0, len(a[i])):
-        print(a[i][j], end = " ")
+        print(a[i][j], end=" ")
     print()

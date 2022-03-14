@@ -9,7 +9,7 @@ try:
 
     # readlines() - 파일 데이터를 리스트로 반환
     season = f.readlines()
-    
+
     # 리스트 객체로 출력
     print(season)
 

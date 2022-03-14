@@ -4,9 +4,11 @@
 def one_up(x):
     return x + 1
 
+
 # 두 수의 차를 구하는 함수
 def sub(x, y):
     return x - y
+
 
 # 절댓값을 구하는 함수
 def my_abs(a):
@@ -14,6 +16,7 @@ def my_abs(a):
         return -a
     else:
         return a
+
 
 num = one_up(1)
 print(num)

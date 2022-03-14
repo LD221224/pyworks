@@ -4,15 +4,16 @@ from custom.customer import Customer
 class GoldCustomer(Customer):
     def __init__(self, cid, name):
         super().__init__(cid, name)  # 고객 아이디, 이름 상속받음
-        self.cgrade = "GOLD"         # 고객 등급
-        self.sale_ratio = 0.1        # 구매 할인율
-        self.bonus_ratio = 0.02      # 보너스 적립율
+        self.cgrade = "GOLD"  # 고객 등급
+        self.sale_ratio = 0.1  # 구매 할인율
+        self.bonus_ratio = 0.02  # 보너스 적립율
 
     def calc_price(self, price):
         # 할인된 가격
         price -= int(price * self.sale_ratio)
         self.bonus_point += int(price * self.bonus_ratio)
         return price
+
 
 if __name__ == "__main__":
     gold = GoldCustomer(1002, "지민")

@@ -4,12 +4,14 @@
 변수이름 앞에 '*'를 붙임
 """
 
+
 def calc_avg(*number):
     sum_v = 0
     for i in number:
         sum_v += i
     avg = sum_v / len(number)
     return avg
+
 
 avg1 = calc_avg(1, 2)
 avg2 = calc_avg(1, 2, 3)

@@ -73,4 +73,3 @@ def delete_emp():
 # update_emp()
 # delete_emp()
 select_emp()
-

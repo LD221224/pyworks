@@ -4,8 +4,10 @@
 def say_hello():
     print("안녕하세요")
 
+
 def say_hello2(name):
     print("안녕하세요~", name)
+
 
 say_hello()
 say_hello()

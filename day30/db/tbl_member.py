@@ -48,6 +48,7 @@ def select_member():
         print(i)
     conn.close()
 
+
 # conn = getconn()
 # print("연결", conn)
 # create_table()

@@ -1,17 +1,20 @@
 # 1부터 n까지 곱하기(1 x 2 x 3 ... x n)
 
 def get_gob(n):
-    gob = 1     # 곱하기 초기화 값 1
+    gob = 1  # 곱하기 초기화 값 1
     for i in range(1, n + 1):
         gob *= i
     return gob
+
 
 # 재귀함수로 정의
 def facto(n):
     if n <= 1:
         return 1
     else:
-        return n * facto(n-1)
+        return n * facto(n - 1)
+
+
 '''
 n = 4
 4 * facto(3)        = 4 * 3 * 2 * 1

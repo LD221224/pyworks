@@ -5,4 +5,5 @@ def print_gugu(dan):
         # print(dan, "x", i, "=", dan * i)
         print("%d x %d = %d" % (dan, i, dan * i))   # 변수 그룹 괄호로 묶기
 
+
 print_gugu(6)

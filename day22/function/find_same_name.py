@@ -3,11 +3,12 @@
 def find_same_name(a):
     same_name = []
     n = len(a)
-    for i in range(0, n-1):
-        for j in range(i+1, n):
+    for i in range(0, n - 1):
+        for j in range(i + 1, n):
             if a[i] == a[j]:
                 same_name.append(a[i])
     return same_name
+
 
 '''
     a[0] == a[1], a[0] == a[2], a[0] == a[3], a[0] == a[4] -> 중복

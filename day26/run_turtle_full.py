@@ -1,17 +1,22 @@
 import turtle as t
 import random
 
+
 def turn_right():
     t.setheading(0)
+
 
 def turn_up():
     t.setheading(90)
 
+
 def turn_left():
     t.setheading(180)
 
+
 def turn_down():
     t.setheading(270)
+
 
 def start():
     global playing
@@ -23,6 +28,7 @@ def start():
         # play 함수 호출
         play()
 
+
 def message(m1, m2):
     t.clear()
     t.goto(0, 100)
@@ -30,6 +36,7 @@ def message(m1, m2):
     t.goto(0, -100)
     t.write(m2, False, "center", ("", 16))
     t.home()
+
 
 def play():
     global playing
@@ -46,9 +53,9 @@ def play():
     if random.randint(1, 5) == 2:
         # 주인공 거북이를 따라온다
         angle = te.towards(t.pos())
-        te.setheading(angle)    
-        
-    # 적 거북이 속도
+        te.setheading(angle)
+
+        # 적 거북이 속도
     speed = score + 5
     te.forward(speed)
 
@@ -71,6 +78,7 @@ def play():
         # 게임 종료
         playing = False
         score = 0
+
 
 # 점수, 게임 스위치 변수
 playing = False

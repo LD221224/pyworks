@@ -30,6 +30,7 @@ def fire():
         t.goto(-200, 10)        # 발사 위치로 돌아감
         t.setheading(angle)     # 저장된 각도로 설정
 
+
 t.shape()
 
 # 땅 그리기

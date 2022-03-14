@@ -5,6 +5,7 @@ def one_up():
     x = x + 1
     return x
 
+
 x = 1       # 전역 변수(메인 영역에 선언)
 print(one_up())     # 2
 print(one_up())     # 3
